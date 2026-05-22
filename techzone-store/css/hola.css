@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Outfit', sans-serif;
+}
+
+/* FONDO */
+body{
+    min-height:100vh;
+
+    /* IMAGEN DE FONDO */
+    background-image: url('../img/como.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow-x:hidden;
+
+    position:relative;
+}
+
+/* NAVBAR */
+.navbar{
+    background: linear-gradient(135deg, #fda4ee, #06b6d4);
+    padding:15px 20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-weight:700;
+    font-size:20px;
+}
+
+/* BOTONES NAV */
+.navbar .btn{
+    border-radius:10px;
+    font-weight:500;
+    margin-left:10px;
+    transition:.3s;
+}
+
+.navbar .btn:hover{
+    transform:translateY(-2px);
+}
+
+/* CONTENEDOR */
+.container{
+    margin-top:60px;
+}
+
+/* CARD */
+.welcome-card{
+    background:rgb(255, 255, 255);
+    border-radius:18px;
+    padding:40px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.1);
+
+    border-left:6px solid #2563eb;
+
+    transition:.3s;
+}
+
+.welcome-card:hover{
+    transform:translateY(-5px);
+}
+
+.alert alert-primaryh2{
+    font-size:34px;
+    font-weight:800;
+
+    letter-spacing:-1px;
+
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom:10px;
+}
+.welcome-card p{
+    color:#64748b;
+    margin-top:10px;
+}
+
+/* USER BADGE */
+.user-badge{
+    display:inline-block;
+    margin-top:15px;
+
+    padding:8px 14px;
+
+    background:#dbeafe;
+    color:#1d4ed8;
+
+    border-radius:12px;
+
+    font-weight:600;
+}
